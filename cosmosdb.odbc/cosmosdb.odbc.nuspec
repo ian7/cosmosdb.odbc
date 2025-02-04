@@ -49,9 +49,14 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <!--<bugTrackerUrl></bugTrackerUrl>-->
-    <tags>cosmosdb.odbc SPACE_SEPARATED</tags>
+    <tags>cosmosdb odbc azure microsoft</tags>
     <summary>CosmosDB odbc driver</summary>
-    <description>CosmosDB odbc driver</description>
+    <description>zure Cosmos DB is a schemaless database, which enables rapid application development and lets you iterate on data models without being confined to a strict schema. A single Azure Cosmos DB database can contain JSON documents of various structures. To analyze or report on this data, you might need to flatten the data to fit into a schema.
+
+The ODBC driver normalizes Azure Cosmos DB data into tables and views that fit your data analytics and reporting needs. The normalized schemas let you use ODBC-compliant tools to access the data. The schemas have no effect on the underlying data, and don't require developers to adhere to them. The ODBC driver helps make Azure Cosmos DB databases useful for data analysts and development teams.
+
+You can do SQL operations against the normalized tables and views, including group by queries, inserts, updates, and deletes. The driver is ODBC 3.8 compliant and supports ANSI SQL-92 syntax.
+</description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
 
